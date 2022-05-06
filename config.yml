@@ -1,6 +1,6 @@
 baseURL: https://mathieulin.github.io/myblog
 languageCode: en-us
-title: My New Hugo Site
+title: Mathieu's blog
 theme: "PaperMod"
 
 enableInlineShortcodes: true
