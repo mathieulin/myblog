@@ -82,23 +82,6 @@ languages:
                 - name: NullLink3
                   url: "#"
 
-    fa:
-        languagedirection: rtl
-        weight: 3
-        title: PaperMod RTL
-        homeInfoParams:
-            Title: "Hi there \U0001F44B"
-            Content: Welcome to RTL layout
-        taxonomies:
-          category: FAcategories
-          tag: FAtags
-          series: FAseries
-        menu:
-            main:
-                - name: FATags
-                  url: fatags
-                  weight: 10
-
 outputs:
     home:
         - HTML
@@ -146,7 +129,7 @@ params:
         - name: github
           url: "https://hjc-owo.github.io"
         - name: KoFi
-          url: "https://www.noietch.cn/"
+          url: "http://121.5.31.11:88/"
         - name: RsS
           url: "config.xml"
 
