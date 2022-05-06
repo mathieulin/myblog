@@ -1,1 +1,21 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml"><url><loc>https://mathieulin.github.io/myblog/</loc><lastmod>2022-05-06T10:29:49+08:00</lastmod></url><url><loc>https://mathieulin.github.io/myblog/posts/my-second-post/</loc><lastmod>2022-05-06T10:29:49+08:00</lastmod></url><url><loc>https://mathieulin.github.io/myblog/posts/</loc><lastmod>2022-05-06T10:29:49+08:00</lastmod></url><url><loc>https://mathieulin.github.io/myblog/posts/my-first-post/</loc><lastmod>2022-05-05T20:14:16+08:00</lastmod></url><url><loc>https://mathieulin.github.io/myblog/posts/my-third-post/</loc><lastmod>2022-05-05T20:14:16+08:00</lastmod></url><url><loc>https://mathieulin.github.io/myblog/categories/</loc></url><url><loc>https://mathieulin.github.io/myblog/tags/</loc></url></urlset>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <sitemap>
+    <loc>https://mathieulin.github.io/myblog/en/sitemap.xml</loc>
+    
+      <lastmod>2022-05-06T10:29:49+08:00</lastmod>
+    
+  </sitemap>
+  
+  <sitemap>
+    <loc>https://mathieulin.github.io/myblog/fr/sitemap.xml</loc>
+    
+  </sitemap>
+  
+  <sitemap>
+    <loc>https://mathieulin.github.io/myblog/fa/sitemap.xml</loc>
+    
+  </sitemap>
+  
+</sitemapindex>
