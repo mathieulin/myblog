@@ -10,7 +10,16 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 06 May 2022 11:20:16 +0800</lastBuildDate><atom:link href="https://mathieulin.github.io/myblog/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 06 May 2022 22:59:31 +0800</lastBuildDate><atom:link href="https://mathieulin.github.io/myblog/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>CTS4</title>
+      <link>https://mathieulin.github.io/myblog/posts/cts4/</link>
+      <pubDate>Fri, 06 May 2022 22:59:31 +0800</pubDate>
+      
+      <guid>https://mathieulin.github.io/myblog/posts/cts4/</guid>
+      <description>这是CTS代码 import java.io.*; import java.util.*; import static java.lang.Math.abs; public class Test { static boolean isLogin = false; public static void main(String args[]) throws IOException { Scanner in = new Scanner(System.in); String argStr; Vector&amp;lt;User&amp;gt; userList = new Vector&amp;lt;User&amp;gt;(); Vector&amp;lt;Line&amp;gt; lineList = new Vector&amp;lt;Line&amp;gt;(); Vector&amp;lt;Train&amp;gt; trainList = new Vector&amp;lt;Train&amp;gt;(); Vector stationList = new Vector(); HashMap&amp;lt;String, Boolean&amp;gt; certMsg = new HashMap&amp;lt;String, Boolean&amp;gt;(); User user = new User(); boolean isAdmin = false; while (true) { argStr = in.</description>
+    </item>
+    
     <item>
       <title>My Third Post</title>
       <link>https://mathieulin.github.io/myblog/posts/my-third-post/</link>
@@ -19,15 +28,6 @@
       <guid>https://mathieulin.github.io/myblog/posts/my-third-post/</guid>
       <description>我的第三篇博客 什么都没有？？？？
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</description>
-    </item>
-    
-    <item>
-      <title>My Second Post</title>
-      <link>https://mathieulin.github.io/myblog/posts/my-second-post/</link>
-      <pubDate>Fri, 06 May 2022 10:29:49 +0800</pubDate>
-      
-      <guid>https://mathieulin.github.io/myblog/posts/my-second-post/</guid>
-      <description>我的第二篇博客 什么都没有？？？？</description>
     </item>
     
     <item>
