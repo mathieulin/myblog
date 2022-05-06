@@ -31,6 +31,15 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor 
     </item>
     
     <item>
+      <title>我的一篇奇怪的博客</title>
+      <link>https://mathieulin.github.io/myblog/posts/special/</link>
+      <pubDate>Fri, 06 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://mathieulin.github.io/myblog/posts/special/</guid>
+      <description>这是描述信息</description>
+    </item>
+    
+    <item>
       <title>My First Post</title>
       <link>https://mathieulin.github.io/myblog/posts/my-first-post/</link>
       <pubDate>Thu, 05 May 2022 20:14:16 +0800</pubDate>
