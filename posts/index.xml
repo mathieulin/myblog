@@ -31,6 +31,15 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor 
     </item>
     
     <item>
+      <title>前端项目傻逼式部署</title>
+      <link>https://mathieulin.github.io/myblog/posts/%E5%89%8D%E7%AB%AF%E9%83%A8%E7%BD%B2/</link>
+      <pubDate>Fri, 06 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://mathieulin.github.io/myblog/posts/%E5%89%8D%E7%AB%AF%E9%83%A8%E7%BD%B2/</guid>
+      <description>这是一个你奶奶都能懂的前端项目部署博客</description>
+    </item>
+    
+    <item>
       <title>我的一篇奇怪的博客</title>
       <link>https://mathieulin.github.io/myblog/posts/special/</link>
       <pubDate>Fri, 06 May 2022 00:00:00 +0000</pubDate>
