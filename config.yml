@@ -144,7 +144,7 @@ params:
            欢迎来到mathieu的博客啦，在这里，你可能什么都得不到，呵呵呵
     socialIcons:
         - name: github
-          url: "hjc-owo.github.io"
+          url: "https://hjc-owo.github.io"
         - name: KoFi
           url: "https://www.noietch.cn/"
         - name: RsS
