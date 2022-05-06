@@ -10,7 +10,17 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 06 May 2022 10:29:49 +0800</lastBuildDate><atom:link href="https://mathieulin.github.io/myblog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 06 May 2022 11:20:16 +0800</lastBuildDate><atom:link href="https://mathieulin.github.io/myblog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My Third Post</title>
+      <link>https://mathieulin.github.io/myblog/posts/my-third-post/</link>
+      <pubDate>Fri, 06 May 2022 11:20:16 +0800</pubDate>
+      
+      <guid>https://mathieulin.github.io/myblog/posts/my-third-post/</guid>
+      <description>我的第三篇博客 什么都没有？？？？
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</description>
+    </item>
+    
     <item>
       <title>My Second Post</title>
       <link>https://mathieulin.github.io/myblog/posts/my-second-post/</link>
@@ -28,15 +38,6 @@
       <guid>https://mathieulin.github.io/myblog/posts/my-first-post/</guid>
       <description>我的第一篇博客 什么都没有？？？？
 我是真的无语，这yyl真的我tm吐了啊！！！</description>
-    </item>
-    
-    <item>
-      <title>My Third Post</title>
-      <link>https://mathieulin.github.io/myblog/posts/my-third-post/</link>
-      <pubDate>Thu, 05 May 2022 20:14:16 +0800</pubDate>
-      
-      <guid>https://mathieulin.github.io/myblog/posts/my-third-post/</guid>
-      <description>我的第三篇博客 什么都没有？？？？</description>
     </item>
     
     
