@@ -5,8 +5,8 @@
     <link>https://mathieulin.github.io/myblog/</link>
     <description>Recent content on Mathieu&#39;s blog</description>
     <image>
-      <url>https://mathieulin.github.io/myblog/papermod-cover.png</url>
-      <link>https://mathieulin.github.io/myblog/papermod-cover.png</link>
+      <url>https://mathieulin.github.io/myblog/eason.jpeg</url>
+      <link>https://mathieulin.github.io/myblog/eason.jpeg</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -17,7 +17,9 @@
       <pubDate>Fri, 06 May 2022 22:59:31 +0800</pubDate>
       
       <guid>https://mathieulin.github.io/myblog/posts/cts4/</guid>
-      <description>这是CTS代码 import java.io.*; import java.util.*; import static java.lang.Math.abs; public class Test { static boolean isLogin = false; public static void main(String args[]) throws IOException { Scanner in = new Scanner(System.in); String argStr; Vector&amp;lt;User&amp;gt; userList = new Vector&amp;lt;User&amp;gt;(); Vector&amp;lt;Line&amp;gt; lineList = new Vector&amp;lt;Line&amp;gt;(); Vector&amp;lt;Train&amp;gt; trainList = new Vector&amp;lt;Train&amp;gt;(); Vector stationList = new Vector(); HashMap&amp;lt;String, Boolean&amp;gt; certMsg = new HashMap&amp;lt;String, Boolean&amp;gt;(); User user = new User(); boolean isAdmin = false; while (true) { argStr = in.</description>
+      <description>这是CTS代码 快速通过CTS 获取评测数据（读书人的事情嘛）
+String input=&amp;#34;&amp;#34;; while (true) { argStr = in.nextLine(); [+] input+=argStr; [+]	input+=&amp;#34;;&amp;#34;; String[] splited = argStr.split(&amp;#34;\\s+&amp;#34;); ...... else if (Objects.equals(splited[0], &amp;#34;QUIT&amp;#34;)){ [+]	System.out.println(input);	System.out.println(&amp;#34;----- Good Bye! -----&amp;#34;); System.exit(0); } 然后你就得到了
+TunakTunakTun;addLine Line13 4 Dazhongshi 28 Zhichunlu 30 Wudaokou 48 Shangdi 96 Xierqi 121 Longze 148;addLine Manchu 2 Shahe 20 Hamazhen 59 Wulongbei 150 Tangshancheng 207 Gaolimen 281 Fenghuangcheng 272 Sitaizi 430 Jiguanshan 498 Benxihu 586;addTrain K0012 Line13 22 90 7 120;addTrain G1001 Manchu 22 90 7 120 2.</description>
     </item>
     
     <item>
