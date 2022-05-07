@@ -9,4 +9,4 @@ draft: false
 
 我是真的无语，这yyl真的我tm吐了啊！！！
 
-![](/images/1.jpg)
+![](1.jpg)
