@@ -105,25 +105,27 @@ params:
     ShowCodeCopyButtons: true
     ShowRssButtonInSectionTermList: true
     ShowToc: true
-    # comments: false
-    images: ["papermod-cover.png"]
+    comments: true
+    images: ["eason.jpeg"]
 
     profileMode:
         enabled: false
-        title: PaperMod
-        imageUrl: "#"
-        imageTitle: my image
+        title: Mathieu's blog
+        #imageUrl: "/img/eason.jpeg"
+        #imageTitle: my image
         # imageWidth: 120
         # imageHeight: 120
         buttons:
             - name: Archives
-              url: archives
+              url: archives/
             - name: Tags
-              url: tags
+              url: tags/
+        Content: 
+           欢迎来到mathieu的博客啦，在这里，你可能什么都得不到，呵呵呵
 
     homeInfoParams:
         Title: "Mathieu's blog"
-        Content: >
+        Content: 
            欢迎来到mathieu的博客啦，在这里，你可能什么都得不到，呵呵呵
     socialIcons:
         - name: github
@@ -131,7 +133,7 @@ params:
         - name: KoFi
           url: "http://121.5.31.11:88/"
         - name: RsS
-          url: "config.xml"
+          url: "config.yml"
 
     editPost:
         URL: "https://github.com/adityatelange/hugo-PaperMod/tree/exampleSite/content"
