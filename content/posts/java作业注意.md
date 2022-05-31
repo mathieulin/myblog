@@ -159,8 +159,8 @@ application-yml中的spring配置项下的数据源
 ### 腾讯云
 
 ```
-tencent.cloud.secretId=AKIDQjoeFcWBdw3wZx73lGbrtgEXcS5TcXDe
-tencent.cloud.secretKey=d2C8qMgojQwEII4ez6yb0B8sQkfV8Yls
+tencent.cloud.secretId=马赛克
+tencent.cloud.secretKey=马赛克
 ```
 
 
