@@ -38,7 +38,6 @@ application-prod.yml里的各种
 ### 3. 查看本地IP
 
 cmd命令行输入ipconfig
-
 ![](img1.jpg)
 
 192.168.10.10
