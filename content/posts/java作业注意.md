@@ -38,7 +38,7 @@ application-prod.yml里的各种
 ### 3. 查看本地IP
 
 cmd命令行输入ipconfig
-![](img1.jpg)
+![](img1.png)
 
 192.168.10.10
 
@@ -50,7 +50,7 @@ cmd命令行输入ipconfig
 
 将App.vue中的serverUrl改成本机IP
 
-![](img2.jpg)
+![](img2.png)
 
 
 
