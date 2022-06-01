@@ -37,8 +37,23 @@ TunakTunakTun;addLine Line13 4 Dazhongshi 28 Zhichunlu 30 Wudaokou 48 Shangdi 96
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum....</p></div><footer class=entry-footer><span title='2022-05-06 11:20:16 +0800 +0800'>May 6, 2022</span>&nbsp;·&nbsp;15 min&nbsp;·&nbsp;Mathieu</footer><a class=entry-link aria-label="post link to My Third Post" href=https://mathieulin.github.io/myblog/posts/my-third-post/></a></article><article class=post-entry><header class=entry-header><h2>前端项目傻逼式部署</h2></header><div class=entry-content><p>可能会有所遗漏，建议还是配合视频使用吧
 1. 登录服务器 ssh ubuntu@121.5.2. vscode远程连接服务器
 2. vscode远程连接服务器 按照视频教程无脑硬莽
-3.更改配置 在服务器中
-cd /etc/nginx/conf.d sudo touch daidai.conf sudo vim daidai.conf server { listen 84; # 84改为你的端口号 这些注释去掉吧 # listen 443 ssl; # server_name zewan.top www.zewan.top; server_name 121.5.31.11; # server_name www.noietch.cn; location / { root /home/ubuntu/hotel/hotel_vue/frontend-demo-daidai; index index.html index.htm; try_files $uri $uri/ /index.html; } location /api { include /etc/nginx/uwsgi_params; uwsgi_pass 127.0.0.1:8080; } } 4. 启动nginx sudo systemctl start nginx //检查一下 sudo nginx -t //重启一下 sudo nginx -s reload 5....</p></div><footer class=entry-footer><span title='2022-05-06 00:00:00 +0000 UTC'>May 6, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;mathieu</footer><a class=entry-link aria-label="post link to 前端项目傻逼式部署" href=https://mathieulin.github.io/myblog/posts/%E5%89%8D%E7%AB%AF%E9%83%A8%E7%BD%B2/></a></article><article class=post-entry><header class=entry-header><h2>我的一篇奇怪的博客</h2></header><div class=entry-content><p>这是大标题 这是二级标题 $$a\lt b$$
+3.更改配置 下载nginx sudo apt install nginx sudo systemctl start nginx 在服务器中
+cd /etc/nginx/conf.d
+sudo touch daidai.conf
+sudo vim daidai.conf server {
+listen 84;//84改为你的端口号
+# listen 443 ssl;
+# server_name zewan.top www.zewan.top;
+server_name 121.5.31.11;
+# server_name www.noietch.cn;
+location / {
+root /home/ubuntu/hotel/hotel_vue/frontend-demo-daidai;
+index index.html index.htm;
+try_files $uri $uri/ /index.html;
+}
+location /api { include /etc/nginx/uwsgi_params;
+uwsgi_pass 127.0.0.1:8080; }
+} 4. 启动nginx sudo systemctl start nginx //检查一下 sudo nginx -t //重启一下 sudo nginx -s reload 5....</p></div><footer class=entry-footer><span title='2022-05-06 00:00:00 +0000 UTC'>May 6, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;mathieu</footer><a class=entry-link aria-label="post link to 前端项目傻逼式部署" href=https://mathieulin.github.io/myblog/posts/%E5%89%8D%E7%AB%AF%E9%83%A8%E7%BD%B2/></a></article><article class=post-entry><header class=entry-header><h2>我的一篇奇怪的博客</h2></header><div class=entry-content><p>这是大标题 这是二级标题 $$a\lt b$$
 这是小分点 这也是小分店 这是小小分店 import java.utils.iostream</p></div><footer class=entry-footer><span title='2022-05-06 00:00:00 +0000 UTC'>May 6, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;我是作者</footer><a class=entry-link aria-label="post link to 我的一篇奇怪的博客" href=https://mathieulin.github.io/myblog/posts/special/></a></article><article class=post-entry><header class=entry-header><h2>My First Post</h2></header><div class=entry-content><p>我的第一篇博客 什么都没有？？？？
 我是真的无语，这yyl真的我tm吐了啊！！！</p></div><footer class=entry-footer><span title='2022-05-05 20:14:16 +0800 +0800'>May 5, 2022</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Mathieu</footer><a class=entry-link aria-label="post link to My First Post" href=https://mathieulin.github.io/myblog/posts/my-first-post/></a></article></main><footer class=footer><span>&copy; 2022 <a href=https://mathieulin.github.io/myblog>Mathieu's blog</a></span>
 <span>Powered by
