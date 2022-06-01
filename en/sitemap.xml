@@ -2,8 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://mathieulin.github.io/myblog/categories/</loc>
+    <lastmod>2022-06-01T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://mathieulin.github.io/myblog/</loc>
-    <lastmod>2022-06-01T00:00:00+08:00</lastmod>
+    <lastmod>2022-06-01T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
@@ -16,18 +19,24 @@
                 />
   </url><url>
     <loc>https://mathieulin.github.io/myblog/posts/</loc>
-    <lastmod>2022-06-01T00:00:00+08:00</lastmod>
+    <lastmod>2022-06-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://mathieulin.github.io/myblog/tags/</loc>
+    <lastmod>2022-06-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://mathieulin.github.io/myblog/posts/%E5%90%8E%E7%AB%AF%E9%83%A8%E7%BD%B2/</loc>
+    <lastmod>2022-06-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://mathieulin.github.io/myblog/categories/%E5%90%8E%E7%AB%AF/</loc>
+    <lastmod>2022-06-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://mathieulin.github.io/myblog/tags/%E7%8E%AF%E5%A2%83%E9%83%A8%E7%BD%B2/</loc>
+    <lastmod>2022-06-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://mathieulin.github.io/myblog/posts/todolist/</loc>
     <lastmod>2022-06-01T00:00:00+08:00</lastmod>
   </url><url>
-    <loc>https://mathieulin.github.io/myblog/categories/</loc>
-    <lastmod>2022-05-31T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://mathieulin.github.io/myblog/categories/java%E9%A1%B9%E7%9B%AE/</loc>
-    <lastmod>2022-05-31T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://mathieulin.github.io/myblog/tags/</loc>
     <lastmod>2022-05-31T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://mathieulin.github.io/myblog/posts/java%E4%BD%9C%E4%B8%9A%E6%B3%A8%E6%84%8F/</loc>
@@ -58,9 +67,6 @@
     <lastmod>2022-05-06T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://mathieulin.github.io/myblog/tags/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E6%A0%87%E7%AD%BE/</loc>
-    <lastmod>2022-05-06T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://mathieulin.github.io/myblog/tags/%E7%8E%AF%E5%A2%83%E9%83%A8%E7%BD%B2/</loc>
     <lastmod>2022-05-06T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://mathieulin.github.io/myblog/posts/my-first-post/</loc>
