@@ -1,11 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>后端 on Mathieu&#39;s Blog</title>
+    <title>后端 on Mathieu&#39;s blog</title>
     <link>https://mathieulin.github.io/myblog/categories/%E5%90%8E%E7%AB%AF/</link>
-    <description>Recent content in 后端 on Mathieu&#39;s Blog</description>
+    <description>Recent content in 后端 on Mathieu&#39;s blog</description>
+    <image>
+      <url>https://mathieulin.github.io/myblog/eason.jpeg</url>
+      <link>https://mathieulin.github.io/myblog/eason.jpeg</link>
+    </image>
     <generator>Hugo -- gohugo.io</generator>
-    <language>zh-cn</language>
+    <language>en-us</language>
     <lastBuildDate>Wed, 01 Jun 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://mathieulin.github.io/myblog/categories/%E5%90%8E%E7%AB%AF/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>后端项目傻逼式部署</title>
