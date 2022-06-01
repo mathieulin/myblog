@@ -10,7 +10,27 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 31 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://mathieulin.github.io/myblog/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 01 Jun 2022 00:00:00 +0800</lastBuildDate><atom:link href="https://mathieulin.github.io/myblog/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>TodoList</title>
+      <link>https://mathieulin.github.io/myblog/posts/todolist/</link>
+      <pubDate>Wed, 01 Jun 2022 00:00:00 +0800</pubDate>
+      
+      <guid>https://mathieulin.github.io/myblog/posts/todolist/</guid>
+      <description>TodoList TodoList Vue前端项目 TodoList Django后端项目 1. 建立数据表 数据库的配置文件在主目录下
+djangoProject\settings.py中
+数据库可视化工具直接建表
+users表存储用户id，密码
+todolist表，由于mysql数据库无法存储json格式的文件，因此我们将用户的todo放到多行数据中显示，每一行包括todo的id（主键），用户id（外键），是否完成， 是否可删除， 标题， 开始时间，结束时间
+2. 将数据表导出为模型 我这里用的是conda环境，所以需要在命令行中执行
+首页，激活环境
+conda activate django 然后我们建立一个app，我们就叫做TodoList了
+django-admin.py startapp TodoList # 将数据库的表的模型用inspectdb命令转换 python manage.py inspectdb &amp;gt; TodoList/models.py 然后我们在settings.py中注册这个TodoList
+python manage.py makemigrations python manage.py migrate 前后端 一大恶心之处就是跨域访问，我是这么解决的 前端项目中的main.js
+// main.js import axios from &amp;#39;axios&amp;#39; Vue.prototype.$axios = axios axios.defaults.baseURL = &amp;#39;http://127.0.0.1:8000/api/todo&amp;#39;; axios.defaults.headers.post[&amp;#39;Content-Type&amp;#39;] = &amp;#39;application/x-www-fromurlencodeed&amp;#39; axios.defaults.headers[&amp;#39;Content-Type&amp;#39;]=&amp;#39;application/x-www-form-urlencoded&amp;#39;; 后端项目中
+allowed_origins = [&amp;#39;http://127.0.0.1:8000&amp;#39;] origin = request.headers[&amp;#39;Origin&amp;#39;] response = JsonResponse({&amp;#39;errno&amp;#39;: 1001, &amp;#39;msg&amp;#39;: &amp;#34;请求方式错误&amp;#34;}) response[&amp;#34;Access-Control-Allow-Origin&amp;#34;] = origin return response 挺麻烦的，整了好久。好像有工具包可以来跨域访问，但我pip安装出问题了</description>
+    </item>
+    
     <item>
       <title>仿抖音项目开发遇到的问题</title>
       <link>https://mathieulin.github.io/myblog/posts/java%E4%BD%9C%E4%B8%9A%E6%B3%A8%E6%84%8F/</link>
